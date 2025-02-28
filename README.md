@@ -1,7 +1,7 @@
 # 🤖 An AI Chatbot that runs Locally on your own device
 
 ## Overview
-This project is a **simple AI chatbot** that runs **entirely on your local machine** using **LangChain, Ollama LLM, and Streamlit**. It allows you to ask questions and receive AI-generated responses in real-time without needing an internet connection after setup.
+This project is a **simple AI chatbot** that runs **entirely on your local machine**, crafted using **LangChain, Ollama LLM, and Streamlit**. It allows you to ask questions and receive AI-generated responses in real-time without needing an internet connection after setup.
 
 ## Features
 - **AI-powered chatbot** for answering user queries
