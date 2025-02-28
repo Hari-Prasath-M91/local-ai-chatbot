@@ -1,20 +1,5 @@
 # 🤖 An AI Chatbot that runs Locally on your own device
 
-## 📖 Index
-1. [Overview](#overview)
-2. [Features](#features)
-3. [Installation & Setup](#installation--setup)
-    - [Clone the Repository](#1-clone-the-repository)
-    - [Set Up a Virtual Environment](#2-set-up-a-virtual-environment-recommended)
-    - [Install Dependencies](#3-install-dependencies)
-    - [Install and Set Up Ollama](#4-install-and-set-up-ollama)
-    - [Set Up Environment Variables](#5-set-up-environment-variables)
-    - [Run the Chatbot](#6-run-the-chatbot)
-4. [Usage](#usage)
-5. [Troubleshooting](#troubleshooting)
-6. [License](#license)
-7. [Contact](#contact)
-
 ## Overview
 This project is a **simple AI chatbot** that runs **entirely on your local machine** using **LangChain, Ollama LLM, and Streamlit**. It allows you to ask questions and receive AI-generated responses in real-time without needing an internet connection after setup.
 
@@ -23,6 +8,19 @@ This project is a **simple AI chatbot** that runs **entirely on your local machi
 - **Runs locally on your PC** without external API calls
 - **Uses LangChain, Ollama LLM, and Streamlit** for a smooth experience
 - **Simple and intuitive interface**
+
+## 📖 Index
+1. [Installation & Setup](#installation--setup)
+    - [Clone the Repository](#1-clone-the-repository)
+    - [Set Up a Virtual Environment](#2-set-up-a-virtual-environment-recommended)
+    - [Install Dependencies](#3-install-dependencies)
+    - [Install and Set Up Ollama](#4-install-and-set-up-ollama)
+    - [Set Up Environment Variables](#5-set-up-environment-variables)
+    - [Run the Chatbot](#6-run-the-chatbot)
+2. [Usage](#usage)
+3. [Troubleshooting](#troubleshooting)
+4. [License](#license)
+5. [Contact](#contact)
 
 ## Installation & Setup
 
@@ -37,6 +35,7 @@ cd your-repository-folder
 Creating a virtual environment helps keep dependencies organized. Run:
 ```sh
 python -m venv venv
+
 ```
 Then activate it:
 - **Mac/Linux:**
