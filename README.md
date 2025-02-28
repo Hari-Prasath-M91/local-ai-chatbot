@@ -15,8 +15,9 @@ This project is a **simple AI chatbot** that runs **entirely on your local machi
     - [Set Up a Virtual Environment](#2-set-up-a-virtual-environment-recommended)
     - [Install Dependencies](#3-install-dependencies)
     - [Install and Set Up Ollama](#4-install-and-set-up-ollama)
-    - [Set Up Environment Variables](#5-set-up-environment-variables)
-    - [Run the Chatbot](#6-run-the-chatbot)
+    - [Set Up LangChain API Key](#5-set-up-langchain-api-key)
+    - [Set Up Environment Variables](#6-set-up-environment-variables)
+    - [Run the Chatbot](#7-run-the-chatbot)
 2. [Usage](#usage)
 3. [Troubleshooting](#troubleshooting)
 4. [License](#license)
@@ -35,7 +36,6 @@ cd your-repository-folder
 Creating a virtual environment helps keep dependencies organized. Run:
 ```sh
 python -m venv venv
-
 ```
 Then activate it:
 - **Mac/Linux:**
@@ -66,15 +66,27 @@ Ollama is required to run the chatbot locally. Follow these steps:
    ```
    - This will download the model required for chatbot responses.
 
-### 5. Set Up Environment Variables
+### 5. Set Up LangChain API Key
+LangChain requires an API key to function correctly. Follow these steps to set it up:
+
+1. **Sign up for LangChain**
+   - Visit [LangChain's official website](https://www.langchain.com/) and create an account.
+
+2. **Generate an API Key**
+   - Once logged in, navigate to the API keys section and generate a new key.
+
+### 6. Set Up Environment Variables
 The repository includes a `.env.example` file. Copy it and rename it to `.env`, then modify the values as needed:
 ```sh
 cp .env.example .env  # Mac/Linux
 copy .env.example .env  # Windows
 ```
-Edit the `.env` file using any text editor and update the necessary configurations.
+Edit the `.env` file using any text editor and update the necessary configurations, including your LangChain API key:
+```
+LANGCHAIN_API_KEY=your_api_key_here
+```
 
-### 6. Run the Chatbot
+### 7. Run the Chatbot
 Now, you’re ready to start chatting! Simply run:
 ```sh
 streamlit run AI_Chatbot.py
@@ -98,6 +110,9 @@ This will open the chatbot interface in your web browser.
 - **Environment Variables Not Working?**
   - Check your `.env` file and ensure the values are set properly.
 
+- **LangChain API Issues?**
+  - Make sure you have generated an API key and logged in via `langchain login`.
+
 ## License
 
 This project is licensed under the **GPL-3.0 License** - see the [LICENSE](LICENSE) file for details.
@@ -108,3 +123,4 @@ If you have questions, suggestions, or issues, please:
 
 - Open an issue on GitHub  
 - Feel free to contact me at [hariprasath.m2017@gmail.com](mailto:hariprasath.m2017@gmail.com)
+
