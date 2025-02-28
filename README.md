@@ -1,4 +1,4 @@
-# An AI Chatbot that runs Locally on your own device
+# 🤖 An AI Chatbot that runs Locally on your own device
 
 ## 📖 Index
 1. [Overview](#overview)
